@@ -208,7 +208,7 @@ namespace MotionKit {
     //% blockId=motion_kit_servos_forward
     //% block="drive forward"
     export function forward(): void {
-        pins.servoWritePin(AnalogPin.C16, 68);
+        pins.servoWritePin(AnalogPin.C16, 90);
         pins.servoWritePin(AnalogPin.C17, 90);
     }
 
