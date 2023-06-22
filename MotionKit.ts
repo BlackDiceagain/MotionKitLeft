@@ -147,8 +147,8 @@ namespace MotionKit {
 			sr = 0
 		    }
 
-		    pins.servoWritePin(AnalogPin.C16, sl)
-		    pins.servoWritePin(AnalogPin.C17, sr)
+		    pins.servoWritePin(AnalogPin.C16, sr)
+		    pins.servoWritePin(AnalogPin.C17, sl)
 
 		} else {
 		    //
@@ -209,7 +209,7 @@ namespace MotionKit {
     //% block="drive forward"
     export function forward(): void {
         pins.servoWritePin(AnalogPin.C16, 68);
-        pins.servoWritePin(AnalogPin.C17, 68);
+        pins.servoWritePin(AnalogPin.C17, 90);
     }
 
     /**
