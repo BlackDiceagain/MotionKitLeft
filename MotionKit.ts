@@ -147,8 +147,8 @@ namespace MotionKit {
 			sr = 0
 		    }
 
-		    pins.servoWritePin(AnalogPin.C16, sr)
-		    pins.servoWritePin(AnalogPin.C17, sl)
+		    pins.servoWritePin(AnalogPin.C16, sl)
+		    pins.servoWritePin(AnalogPin.C17, sr)
 
 		} else {
 		    //
